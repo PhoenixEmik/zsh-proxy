@@ -12,7 +12,7 @@
 Firstly, clone this repository in `oh-my-zsh`'s plugins directory.
 
 ```bash
-git clone https://github.com/sukkaw/zsh-proxy.git ~/.oh-my-zsh/custom/plugins/zsh-proxy
+$ git clone https://github.com/sukkaw/zsh-proxy.git ~/.oh-my-zsh/custom/plugins/zsh-proxy
 ```
 
 Secondly, activate the plugin in `~/.zshrc`. Enable it by adding `zsh-proxy` to the [plugins array](https://github.com/robbyrussell/oh-my-zsh/blob/master/templates/zshrc.zsh-template#L66).
@@ -82,7 +82,7 @@ If you forget whether you have enabled proxy or not, it is fine to run `proxy` c
 $ myip
 ```
 
-Check procedure will use `curl` and the IP data come from `ipip.net`, `ip.cn` & `ip.gs`.
+Check procedure will use `curl` and the IP data come from `ifconfig.co`.
 
 ## Uninstallation
 
